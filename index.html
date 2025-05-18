@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive Interactive Web Program</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>Responsive Interactive Web Experience</h1>
+  <p>Quiz | Image Carousel | Live Joke API</p>
+</header>
+
+<div class="container">
+  <section class="quiz-section">
+    <img id="quiz-image" src="https://picsum.photos/id/1015/800/400" alt="Quiz Image">
+    <div class="question" id="question">Loading question...</div>
+    <div class="options" id="options"></div>
+  </section>
+
+  <section class="joke-section">
+    <h2>😂 Random Programming Joke</h2>
+    <p id="joke-text">Click the button to load a joke!</p>
+    <button onclick="fetchJoke()">Get Joke</button>
+  </section>
+</div>
+
+<footer>
+  &copy; 2025 Interactive Web Demo. Built with HTML, CSS, JS & APIs.
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

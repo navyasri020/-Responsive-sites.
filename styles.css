@@ -1,0 +1,113 @@
+body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #74ebd5, #75a035);
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+      padding: 2rem;
+      background: #0077cc;
+      color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    .quiz-section {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .quiz-section img {
+      max-width: 100%;
+      max-height: 400px;
+      border-radius: 15px;
+      transition: transform 0.3s ease;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+
+    .quiz-section img:hover {
+      transform: scale(1.02);
+    }
+
+    .question {
+      font-size: 1.3rem;
+      margin: 1rem 0;
+    }
+
+    .options button {
+      display: block;
+      width: 100%;
+      max-width: 300px;
+      margin: 0.5rem auto;
+      padding: 0.75rem;
+      font-size: 1rem;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .options button:hover {
+      background-color: #005fa3;
+    }
+
+    .joke-section {
+      background: #f1faff;
+      padding: 1rem;
+      border-radius: 10px;
+      text-align: center;
+      margin-top: 2rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .joke-section button {
+      margin-top: 1rem;
+      background: #00b894;
+      color: white;
+      border: none;
+      padding: 0.7rem 1.5rem;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .joke-section button:hover {
+      background: #009879;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      background-color: #0077cc;
+      color: white;
+    }
+
+    @media (max-width: 768px) {
+      .question {
+        font-size: 1.1rem;
+      }
+      .options button {
+        font-size: 0.95rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .options button {
+        width: 90%;
+      }
+    }
